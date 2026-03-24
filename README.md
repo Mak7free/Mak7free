@@ -1,11 +1,10 @@
 <div align="center">
 
-# Mukul Sagar (Mak7free)<div align="center">
-
-# Mukul Sagar
-### Lead Engineer & Deep Learning Researcher
+## Lead Engineer & Deep Learning Researcher
 
 $$\mathcal{f}(x) = \text{Scalable Architecture} + \text{Predictive Intelligence}$$
+
+<br>
 
 [ LinkedIn ](https://linkedin.com/in/YOUR_LINKEDIN) | [ Portfolio ](https://your-portfolio.com) | [ Email ](mailto:your-email@example.com)
 
