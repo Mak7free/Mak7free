@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 220">
+  <defs>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="40" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="100%" height="100%" fill="#0D1117" />
+
+  <circle cx="150" cy="110" r="70" fill="#58A6FF" filter="url(#glow)" opacity="0.6">
+    <animate attributeName="cx" values="150; 250; 150" dur="7s" repeatCount="indefinite" />
+  </circle>
+  
+  <circle cx="650" cy="110" r="80" fill="#3ECF8E" filter="url(#glow)" opacity="0.5">
+    <animate attributeName="cx" values="650; 550; 650" dur="9s" repeatCount="indefinite" />
+  </circle>
+  
+  <circle cx="400" cy="50" r="60" fill="#D2A8FF" filter="url(#glow)" opacity="0.5">
+    <animate attributeName="cy" values="50; 150; 50" dur="8s" repeatCount="indefinite" />
+  </circle>
+
+  <rect x="40" y="35" width="720" height="150" rx="16" fill="rgba(13, 17, 23, 0.4)" stroke="rgba(255, 255, 255, 0.15)" stroke-width="1.5" />
+
+  <text x="50%" y="95" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="28" font-weight="bold" fill="#FFFFFF" text-anchor="middle" letter-spacing="1">
+    Lead Engineer &amp; Deep Learning Researcher
+  </text>
+  
+  <text x="50%" y="140" font-family="monospace" font-size="16" fill="#8B949E" text-anchor="middle">
+    ƒ(x) = Scalable Architecture + Predictive Intelligence
+  </text>
+</svg>
