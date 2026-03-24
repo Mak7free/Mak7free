@@ -1,8 +1,6 @@
 <div align="center">
 
-## Lead Engineer & Deep Learning Researcher
-
-$$\mathcal{f}(x) = \text{Scalable Architecture} + \text{Predictive Intelligence}$$
+<img src="./glass-header.svg" alt="Animated Glassmorphism Header" width="100%">
 
 <br>
 
